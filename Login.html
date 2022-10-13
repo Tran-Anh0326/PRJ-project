@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopbee - Kênh người bán</title>
+    <link rel="icon" type="image/x-icon" href="./images/Shopbee1-logo.png">
+    <link rel="stylesheet" href="./Login.css">
+    <!-- link icon -->
+    <script src="https://kit.fontawesome.com/57f669a5d5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="app">
+        <div class="header-bar">
+            <div class="header-content">
+                <!-- link forwrard to Home -->
+                <a href="" class="header-logo"><img src="./images/Shopbee1-logo.png"></a>
+                <div class="content-box">
+                    <!-- link forward to Home of saler -->
+                    <a>Kênh Người Bán</a>
+                </div>
+                <div class="link-box">
+                    <div class="link-item">
+                        <a href="http://">Trang chủ Shopbee</a>
+                        <div class="link-badge">MỚI</div>
+                    </div>
+                    <div class="sns-box">
+                        <div class="sns">
+                            <!--link icon - https://fontawesome.com/search?o=r&f=classic%2Cbrands -->
+                            <a href="https://www.facebook.com/giadinhgaingua"><i
+                                    class="fa-brands fa-facebook fa-lg"></i></a>
+                        </div>
+                        <div class="sns">
+                            <a href="https://www.instagram.com/_tr.anhh0326/"><i
+                                    class="fa-brands fa-square-instagram fa-lg"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="app-container">
+            <div class="page-container">
+                <div class="page-content-wrapper">
+                    <div class="account-container">
+                        <div class="col-8">
+                            <div class="text">
+                                <div class="title">Bán hàng chuyên nghiệp</div>
+                                <div class="subtitle">
+
+                                    Quản lý shop của bạn một cách hiệu quả hơn trên Shopbee với Shopbee - Kênh Người bán
+
+                                </div>
+                            </div>
+                            <div class="image"><img src="./images/subImage.png"></div>
+
+                        </div>
+                        <div class="col-2"></div>
+                        <div class="col-6">
+                            <div class="signin-panel" style="height: auto;">
+                                <div class="signin">
+                                    <div class="signin-form">
+                                        <div class="signin-title">
+                                            Đăng nhập vào Kênh Người Bán
+                                        </div>
+                                        <!-- call to servlet login and put data -->
+                                        <form action="login" id="shopee-login">
+                                            <div class="shopee-form-item">
+                                                <label for="username" class="shopee-form-item-label">
+                                                </label>
+                                                <div class="shopee-form-item__control">
+                                                    <div class="shopee-form-item__content">
+                                                        <div class="shopee-input" max-length="100">
+                                                            <div class="shopee-input-inner">
+                                                                <input type="text" placeholder="Tên đăng nhập"
+                                                                    class="shopee-input_input" name="username">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="shopee-form-item">
+                                                <label for="username" class="shopee-form-item-label">
+                                                </label>
+                                                <div class="shopee-form-item__control">
+                                                    <div class="shopee-form-item__content">
+                                                        <div class="shopee-input" max-length="100">
+                                                            <div class="shopee-input-inner">
+                                                                <input type="password" placeholder="Mật Khẩu"
+                                                                    class="shopee-input_input shopee-password"
+                                                                    name="password">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="remember">
+                                                <a href="resetPassword.jsp" class="shopee-button-link">
+                                                    <span>Quên mật khẩu?</span>
+                                                </a>
+                                            </div>
+                                            <div class="shopee-form-item">
+                                                <label for="username" class="shopee-form-item-label">
+                                                </label>
+                                                <div class="shopee-form-item__control">
+                                                    <div class="shopee-form-item__content">
+                                                        <button type="button" class="shopee-button-block shopee-button">
+                                                            <span>Đăng nhập</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </form>
+                                        <div class="main-sub-account-login">
+                                            <div class="create-account-frame">
+                                                Chưa có tài khoản Shopee? 
+                                                <a href="createAccount.jsp" class="shopee-button-link">
+                                                    <span> Tạo tài khoản </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
